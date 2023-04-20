@@ -3,7 +3,7 @@
 https://startbootstrap.com/template/simple-sidebar
 
 ## About
-This is the first *beta version* of a DNN Theme version based on the Bootstrap Simple Sidebar Starter Theme.
+This is the first *Beta Version* of a DNN Theme version based on the Bootstrap Simple Sidebar Starter Theme.
 Please note that this DNN Theme will stay as near to the Bootstrap 5 Template as Possible, so with the Template's limitations
 
 ## Notes:
