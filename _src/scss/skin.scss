@@ -1,0 +1,19 @@
+// ** Use this file to set / overwrite variables
+@import "./_custom/custom-variables.scss";
+
+
+	// ** I suggest to not edit these files from here ** //
+	
+	// Default Bootstrap 5
+	@import "./_default/bootstrap/scss/bootstrap.scss";
+
+	// DNN overrules
+	@import "./_default/_dnn/dnn.scss";
+
+	// Theme style
+	@import "./_default/theme/scss/styles.scss";
+
+	// ** To here.. ** //
+
+// ** Theme style overrules + additions
+@import "./_custom/custom.scss";
