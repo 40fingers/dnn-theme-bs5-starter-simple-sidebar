@@ -1,5 +1,8 @@
 # DNNCMS imple Side Menu Starter Theme
 ## Bootstrap 5 
+https://startbootstrap.com/template/simple-sidebar
+
+## About
 DNN Theme version of the Bootstrap Simple Sidebar Starter Theme.
 Please note that this DNN Theme will stay as near to the Bootstrap 5 Template as Possible, so with the Template's limitations
 
@@ -9,4 +12,4 @@ Please note that this DNN Theme will stay as near to the Bootstrap 5 Template as
 - I hard coded the paths for now (in gulp.js) but that will be changes for the next version.
 - I'll also add more documentation on setting up the development environment to create a modified version
 
-https://startbootstrap.com/template/simple-sidebar
+
