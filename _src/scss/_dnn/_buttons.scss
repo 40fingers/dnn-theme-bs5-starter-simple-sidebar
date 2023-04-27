@@ -1,4 +1,9 @@
-.dnnPrimaryAction, .dnnFormItem input[type="submit"], a.dnnPrimaryAction{
+.dnnPrimaryAction, .dnnFormItem input[type="submit"], a.dnnPrimaryAction,
+.dnnFormItem button, .dnnFormItem input[type="button"],
+.dnnFormItem input[type="reset"],
+.dnnFormItem input[type="submit"],
+input[type='submit']
+{
 
     @extend .btn;
     @extend .btn-primary;
@@ -17,7 +22,8 @@
 
 }
 
-.dnnSecondaryAction, .dnnFormItem input[type="submit"], a.dnnSecondaryAction{
+.dnnSecondaryAction, .dnnFormItem input[type="submit"], a.dnnSecondaryAction,
+.dnnTertiaryAction{
 
     @extend .btn;
     @extend .btn-secondary;
