@@ -4,11 +4,12 @@
 
 	// ** I suggest to not edit these files from here ** //
 	
+	// DNN overrules
+	@import "./_dnn/dnn.scss";
+
 	// Default Bootstrap 5
 	@import "./_default/bootstrap/scss/bootstrap.scss";
 
-	// DNN overrules
-	@import "./_default/_dnn/dnn.scss";
 
 	// Theme style
 	@import "./_default/theme/scss/styles.scss";
