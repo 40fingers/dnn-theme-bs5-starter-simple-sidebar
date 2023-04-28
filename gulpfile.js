@@ -1,11 +1,12 @@
 const gulp = require('gulp');
-var clean = require('gulp-clean');
+const clean = require('gulp-clean');
 const sass = require('gulp-sass')(require('sass'));
 const cleanCSS = require('gulp-clean-css');
 const sourcemaps = require('gulp-sourcemaps');
 const rename = require('gulp-rename');
 
-
+const folderPath = __dirname;
+const folderName =  folderPath.substring(folderPath.lastIndexOf('\\') + 1); 
 
 
 // SCSS ----------------------
@@ -31,11 +32,12 @@ function buildScss() { // Parse only the Skin.less file
    
    // 6. Write minified CSS
    .pipe(gulp.dest('./'))
+   
 }
 
-// SCSS ----------------------
+// Containers ----------------------
 const containerSource = ['_src/containers/**/*.*'];
-const containersTarget = ['../../containers/BS5-Simple-Sidebar/'];
+const containersTarget = ['../../containers/' + folderName];
 
 
 function copyContainers() { // Parse only the Skin.less file
@@ -51,9 +53,6 @@ function copyContainers() { // Parse only the Skin.less file
    .pipe(gulp.dest(containersTarget))  
 	;
 }
-
-
-
 
 
 

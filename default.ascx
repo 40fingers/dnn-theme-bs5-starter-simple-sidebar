@@ -59,6 +59,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
 		<dnn:DnnJsInclude runat="server" FilePath="vendors/theme/js/scripts.js" PathNameAlias="SkinPath" />
-		<dnn:DnnJsInclude runat="server" FilePath="vendors/theme/js/scripts.js" PathNameAlias="SkinPath" />
+
 
 		
