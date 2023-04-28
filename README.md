@@ -10,8 +10,9 @@ Please note that this DNN Theme will stay as near to the Bootstrap 5 Template as
 
 ## Notes:
 
-- The Theme uses Gulp to parse the SCSS and als to copy the Containers from the _src/Containers folder to the appropriate DNN container folder.
-- I hard coded the paths for now (in gulp.js) but that will be changes for the next version.
-- I'll also add more documentation on setting up the development environment to create a modified version
+- The Theme uses Gulp to parse the SCSS.
+- Containers come from _src/Containers folder and are on change copied to the appropriate DNN container folder. (due to Git limitations)
+- The Gulp script assumes the name of your container folder is the same as the skin folder.
+- I'll  add more documentation on setting up the development environment to create a modified version of this theme.
 
 
