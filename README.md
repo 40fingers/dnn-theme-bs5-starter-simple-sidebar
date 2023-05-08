@@ -1,4 +1,4 @@
-# DNNCMS imple Side Menu Starter Theme
+# DNNCMS Simple Side Menu Starter Theme
 ## Bootstrap 5 
 https://startbootstrap.com/template/simple-sidebar
 
