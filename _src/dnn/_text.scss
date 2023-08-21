@@ -33,6 +33,9 @@ p {
 .Normal, .NormalDisabled, .NormalDeleted{ // Lines 218-234
     line-height: initial;
     font-size: initial;
+
+    color: inherit;
+    
 }
 
 .NormalBold { // lines 247-250
@@ -51,6 +54,7 @@ blockquote { // Line 271-275
     // border-left: 1px solid #ddd;
 }
 
+
 // Lines 291-297
 hr {
     //clear: both;
@@ -61,10 +65,10 @@ hr {
 }
 
 
-// lines 302-316
-a:visited {
-    color: inherit;
-}
+// lines 302-316 should be removed
+// a:visited {
+//     color: unset;
+// }
 
 // Lines 337-364
 ul, ol {
@@ -80,9 +84,9 @@ ul, ol {
         margin-bottom: 0;
     }
 
-
+// Should be removed IMO
 li p {
-    line-height: 1em;
+    line-height: inherit;
 }
 
 

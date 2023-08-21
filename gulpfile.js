@@ -10,7 +10,7 @@ const folderName =  folderPath.substring(folderPath.lastIndexOf('\\') + 1);
 
 
 // SCSS ----------------------
-const skinScssPath = ['./_src/scss/skin.scss'];
+const skinScssPath = ['./_src/skin.scss'];
 const scssWatchPath = ['./_src/**/*.scss'];
 
 function buildScss() { // Parse only the Skin.less file
