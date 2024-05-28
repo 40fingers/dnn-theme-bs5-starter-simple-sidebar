@@ -3,8 +3,8 @@
 body { // lines 113-120
     //color: #444;
     //font-size: 12px;
-    line-height: normal;
-    font-family: inherit;
+    // line-height: normal;
+    // font-family: inherit; //* not needed for BS, might be for other frameworks
     // -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
     // -webkit-text-size-adjust: 100%;
 }
@@ -15,8 +15,7 @@ h1,h2,h3,h4,h5,h6 // lines 122-177
     color: inherit;
     font-family: inherit;
     letter-spacing: inherit;
-    line-height: initial;
-    font-size: initial;
+    line-height: normal;
 }
 
 
@@ -31,10 +30,9 @@ p {
 }
 
 .Normal, .NormalDisabled, .NormalDeleted{ // Lines 218-234
-    line-height: initial;
-    font-size: initial;
-
+    line-height: normal;
     color: inherit;
+	font-size: inherit;
     
 }
 
