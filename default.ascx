@@ -56,9 +56,10 @@
             </div>
  
         <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-		<dnn:DnnJsInclude runat="server" FilePath="vendors/theme/js/scripts.js" PathNameAlias="SkinPath" />
+        <dnn:DnnJsInclude runat="server" ForceProvider="DnnFormBottomProvider" FilePath="vendors/bootstrap/js/bootstrap.bundle.min.js" PathNameAlias="SkinPath" />
 
+
+        <!-- Core theme JS-->
+		<dnn:DnnJsInclude runat="server" ForceProvider="DnnFormBottomProvider" FilePath="vendors/theme/js/scripts.js" PathNameAlias="SkinPath" />
 
 		
