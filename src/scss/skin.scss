@@ -1,0 +1,17 @@
+// ** Overrule Theme variables
+@import "custom/_variables.scss";
+
+// ** Theme variables
+@import "../../theme-base/src/scss/_variables.scss";
+
+// Default Bootstrap 5
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// DNN overrules
+@import "../../_dnn-base/scss/_overrides.scss";
+
+// Theme style
+@import "../../theme-base/src/scss/styles.scss";
+
+// ** Theme style overrules + additions
+@import "custom/_custom.scss";

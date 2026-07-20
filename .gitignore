@@ -1,4 +1,22 @@
-/__Skinpack
-/vendors
-/node_modules
-thumbnail*.*
+# Node modules
+node_modules/
+
+# Local config (optional per-user overrides)
+config-local.json
+
+# Build output (temporary)
+_dist/
+_release/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+
+
+# Optional editor folders
+.vscode/
+ 
+/_build
